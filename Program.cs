@@ -112,4 +112,5 @@ public class FluentCalculator
 		}
 		_numbers.Push(value);
 	}
+
 }
