@@ -1,6 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello! Welcome to Fluent Calculator!");
+using FluentCalculator;
+
+Console.WriteLine("Добро поожаловать!");
+
+
+var someValue = new BoolExperements();
+if (someValue == false && someValue == true)
+{
+	Console.WriteLine(
+		"Вы видите этот текст так как (someValue == false && someValue == true) выражение в результате возвращает true");
+	Console.WriteLine("Нажvите любую кнопку, чтобы увидеть результаты работы Fluent Calculator");
+}
+
+Console.ReadLine();
+
 
 var calculator = new FluentCalculator.Calculator.FluentCalculator();
 
