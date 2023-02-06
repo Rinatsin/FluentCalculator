@@ -5,7 +5,7 @@ using FluentCalculator;
 Console.WriteLine("Добро поожаловать!");
 
 
-var someValue = new BoolExperements();
+var someValue = new SomeValue();
 if (someValue == false && someValue == true)
 {
 	Console.WriteLine(
@@ -14,6 +14,7 @@ if (someValue == false && someValue == true)
 }
 
 Console.ReadLine();
+
 
 
 var calculator = new FluentCalculator.Calculator.FluentCalculator();
