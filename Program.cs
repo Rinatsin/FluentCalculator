@@ -10,7 +10,7 @@ if (someValue == false && someValue == true)
 {
 	Console.WriteLine(
 		"Вы видите этот текст так как (someValue == false && someValue == true) выражение в результате возвращает true");
-	Console.WriteLine("Нажvите любую кнопку, чтобы увидеть результаты работы Fluent Calculator");
+	Console.WriteLine("Нажvите клавишу Enter, чтобы увидеть результаты работы Fluent Calculator");
 }
 
 Console.ReadLine();
