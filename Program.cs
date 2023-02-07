@@ -6,10 +6,10 @@ Console.WriteLine("Добро поожаловать!");
 
 
 var someValue = new SomeValue();
-if (someValue == false && someValue == true)
+if (someValue == true && someValue == false)
 {
 	Console.WriteLine(
-		"Вы видите этот текст так как (someValue == false && someValue == true) выражение в результате возвращает true");
+		"Вы видите этот текст так как (someValue == true && someValue == false) выражение в результате возвращает true");
 	Console.WriteLine("Нажvите клавишу Enter, чтобы увидеть результаты работы Fluent Calculator");
 }
 
